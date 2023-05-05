@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clueo-candles-dashboard/static/css/main.198a9ca2.css",
+    "main.js": "/clueo-candles-dashboard/static/js/main.43e930ac.js",
+    "static/media/candles2.mp4": "/clueo-candles-dashboard/static/media/candles2.063653c1c5e33d1e1f25.mp4",
+    "static/media/forest.JPG": "/clueo-candles-dashboard/static/media/forest.5af99cdb036a2705d7ca.JPG",
+    "static/media/oceanmist.JPG": "/clueo-candles-dashboard/static/media/oceanmist.8816883ea633e895dbd4.JPG",
+    "static/media/datenight.JPG": "/clueo-candles-dashboard/static/media/datenight.29224a818b7651355575.JPG",
+    "static/media/goldenhour.JPG": "/clueo-candles-dashboard/static/media/goldenhour.a3b77160d53f97a60022.JPG",
+    "static/media/CLUEO HUGE.png": "/clueo-candles-dashboard/static/media/CLUEO HUGE.42a96b7297ff7bfadfd3.png",
+    "static/media/person3.avif": "/clueo-candles-dashboard/static/media/person3.b2695dde4dc30931fc83.avif",
+    "static/media/person2.avif": "/clueo-candles-dashboard/static/media/person2.de0e58fc08163c5b978f.avif",
+    "static/media/person1.avif": "/clueo-candles-dashboard/static/media/person1.bdcc924b9d6a652624a0.avif",
+    "static/media/person4.avif": "/clueo-candles-dashboard/static/media/person4.562d1647c01c8529a4eb.avif",
+    "index.html": "/clueo-candles-dashboard/index.html",
+    "main.198a9ca2.css.map": "/clueo-candles-dashboard/static/css/main.198a9ca2.css.map",
+    "main.43e930ac.js.map": "/clueo-candles-dashboard/static/js/main.43e930ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198a9ca2.css",
+    "static/js/main.43e930ac.js"
+  ]
+}
