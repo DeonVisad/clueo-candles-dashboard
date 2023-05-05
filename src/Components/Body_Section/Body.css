@@ -1,0 +1,37 @@
+:root {
+  --primaryColor: #22223B;
+  --hoverColor: #4A4E69;
+  --brownPurple: #9A8C98;
+  --whiteColor: #FFFFFF;
+  --blackColor: #131313;
+  --textColor: #dddddd;
+  --bgColor: #F2E9E4;
+  --greyText: grey;
+  --inputColor: whitesmoke;
+  /* Typography */
+  --xlFont: 2.5rem;
+  --h1Font: 1.5rem;
+  --h2Font: 1.25rem;
+  --h3Font: 1rem;
+  --normalFont: .935rem;
+  --smallFont: .81rem;
+  --xsFont: .75rem;
+}
+
+.mainContainer {
+  width: 82%;
+  height: 100%;
+  padding: 2rem;
+  overflow: auto;
+}
+.mainContainer .bottom {
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 918px) {
+  .bottom {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Body.css.map */

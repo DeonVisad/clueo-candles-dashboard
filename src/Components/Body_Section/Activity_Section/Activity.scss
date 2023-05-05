@@ -1,0 +1,93 @@
+:root{
+    --primaryColor: #22223B;
+    --hoverColor: #4A4E69;
+    --brownPurple: #9A8C98;
+    --whiteColor: #FFFFFF;
+    --blackColor: #131313;
+    --textColor: #dddddd;
+    --bgColor: #F2E9E4;
+    --greyText: grey;
+    --inputColor: whitesmoke;
+  
+    /* Typography */
+  
+    --xlFont: 2.5rem;
+    --h1Font: 1.5rem;
+    --h2Font: 1.25rem;
+    --h3Font: 1rem;
+    --normalFont: .935rem;
+    --smallFont: .81rem;
+    --xsFont: .75rem;
+  
+  }
+
+  .activitySection{
+    flex-basis: 50%;
+
+    .heading{
+        width: 100%;
+        justify-content: space-between;
+
+        h1{
+            font-size: var(--h2Font);
+            color: var(--blackColor);
+            font-weight: 700;
+        }
+
+        .btn{
+            border: 1px solid transparent;
+
+        }
+        .btn:hover{
+            border: 1px solid var(--primaryColor);
+        }
+    }
+
+    .secContainer{
+        margin-top: 1rem;
+        margin-left: .25rem;
+
+        .singleCustomer{
+            align-items: flex-start;
+            justify-content: space-between;
+
+            img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 50%;
+                box-shadow: 0px 2px 4px var(--whiteColor);
+            }
+
+            .customerDetails{
+                flex: 1;
+                margin-left: .5rem;
+
+                .name{
+                    font-size: var(--h3Font);
+                    font-weight: 600;
+                    color: var(--blackColor);
+                    display: block;
+                }
+
+                small{
+                    font-weight: 500;
+                    color: var(--blackColor);
+                    font-size: var(--smallFont);
+                }
+            }
+
+            .duration{
+                color: var(--blackColor);
+                font-weight: 500;
+                font-size: var(--xsFont);
+            }
+        }
+    }
+  }
+
+  @media  screen and (max-width: 918px) {
+    .activitySection{
+        width: 100%;
+    }
+  }
